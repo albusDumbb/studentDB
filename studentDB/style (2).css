@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+.home-page {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.home-content {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.home-content > p {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.home-content > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  border: 3px solid black;
+  padding: 10px;
+}
+.home-content > a:hover {
+  background-color: black;
+  color: white;
+}
+.select-page {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.select-content > a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.select-content > a:hover {
+  background-color: black;
+  color: white;
+}
+.add-page {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.add-form {
+  text-align: left;
+  padding: 20px;
+  width: 500px;
+}
+.form-add > input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 500px;
+  border: 2px solid black;
+}
+.first-add-p {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.form-add > .add-button {
+  width: 200px;
+  margin-left: 160px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.form-add > .add-button:hover {
+  background-color: white;
+  color: black;
+}
+.select-data-firstP {
+  font-weight: bold;
+  font-size: 20px;
+}
+.select-form-design {
+  width: 250px;
+  margin-top: 20px;
+}
+.select-form-design > input {
+  width: 400px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 5px;
+}
+.select-form-design > .select-button {
+  padding: 10px;
+  width: 150px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+.select-form-design > .select-button:hover {
+  background-color: white;
+  color: black;
+}
+.select-all-button {
+  margin-top: 50px;
+}
+.select-all-button > input {
+  padding: 15px;
+  width: 150px;
+  background-color: black;
+  color: white;
+}
+.select-all-button > input:hover {
+  background-color: white;
+  color: black;
+}
+.select {
+  display: flex;
+  margin-left: 150px;
+}
+.select-data {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.select-section {
+  display: block;
+  margin-top: 10px;
+}
+.selected-data {
+  width: 500px;
+  height: 400px;
+  border: 2px solid black;
+  margin-left: 200px;
+  margin-top: 5px;
+  max-width: 500px;
+  max-height: 450px;
+  overflow-y: auto; /* Add vertical scrollbar if content overflows */
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  border-radius: 3px;
+  padding: 10px;
+}
+.selected-paragraph > p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.data {
+  padding: 5px;
+}
+.delete-page {
+  display: grid;
+  place-items: center;
+}
+.haha {
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+}
+.delete {
+  display: block;
+  margin-top: 150px;
+  width: 500px;
+}
+.delete-paragraph {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.form {
+  width: 400px;
+  margin-top: 50px;
+}
+.form > input {
+  width: 500px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 5px;
+}
+.form > .delete-button {
+  width: 150px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+.form > .delete-button:hover {
+  color: black;
+  background-color: white;
+}
+.update-page {
+  display: grid;
+  place-items: center;
+}
+
+.update-right {
+  display: block;
+  margin-top: 50px;
+  width: 400px;
+}
+.update-right > p {
+  font-weight: bold;
+  font-size: 20px;
+  width: 400px;
+}
+.update-right-input > input {
+  width: 500px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 5px;
+}
+.update-right-p {
+  margin-bottom: 20px;
+  width: 500px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.update-right-input > .update-button {
+  width: 200px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  margin-left: 150px;
+}
+.update-right-input > .update-button:hover {
+  background-color: white;
+  color: black;
+}
+.enter-email {
+  margin-bottom: 40px;
+}
+.update-right-pp {
+  width: 500px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.allBack {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
